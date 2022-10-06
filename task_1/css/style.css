@@ -1,0 +1,136 @@
+.container{
+	/* margin:100px; */
+}
+.container_left img{
+	    width: 143px;
+    border-radius: 50%;
+    border: 4px solid;
+}
+.prof_name
+{
+	
+}.navigation{
+	    padding: 50px 1px;
+    border-top: 1px dashed gray;
+}
+.navigation a{
+	padding:24px 34px 24px 60px;
+	color:#454141;
+}
+.container_left{
+	width:20%;
+	float:left;
+	
+	
+	
+}
+.container_right{
+	width:80%;
+	float:right;
+}
+.intro{
+	text-align: center;
+    background-color: #000000;
+	padding: 20px 50px;
+}
+.intro h4{
+	color: #ecd9d9;
+	
+}
+.intro h1{
+	color: #ffffff;
+	
+}
+.intro h2{
+	color: #848b88;
+	
+}
+.intro h3 a{
+	color: #ffffff;
+	border: 1px solid;
+    padding: 10px 15px;
+	
+}
+.education_head_left{
+	float:left;
+	width:20%;
+	margin-right:10px;
+}
+.education_head_right{
+	
+	width:80%;
+	padding-left:30px;
+	
+}
+.education_sub{
+	border-left:2px solid gray;
+	margin-bottom:20px;
+	
+}
+.education_sub_left{
+	padding-left:20px;
+	display: inline-block;
+	
+
+}
+.education_sub_right{
+	float:right;
+	background-color:#dcd7d7;
+	padding:50px;
+	display: inline-block;
+}
+.education_sub h4{
+	color:#293c5b
+}
+.education_sub h5{
+	color:#2b2f67;
+}
+.education_sub h6{
+	color:#79a1c7;;
+}
+.skill{
+	border-bottom:1px dashed gray;
+}	
+.skill_left{
+	width:10%;
+	float:left;
+	
+}
+.skill_right{
+	width:90%;
+	float:right;
+	
+}
+.skill_sub{
+	padding:20px 25px;
+}
+.skill_set{
+padding:50px 50px;
+}
+.skill_set_a span{
+	padding: 18px 33px 20px 32px;
+	color:gray;
+}
+
+.project{
+	border-bottom:1px dashed gray;
+}
+.project_head{
+padding-bottom:50px;
+}
+.project_left{
+	width:10%;
+	float:left;
+}
+.project_right{
+	width:90%;
+	float:right;
+}
+.project_sub{
+	
+}
+.project_final{
+	padding:10px 20px;
+	border-left:2px solid gray;
+	margin-bottom:20px;
+}
