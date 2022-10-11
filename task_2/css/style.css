@@ -30,11 +30,149 @@
 }
 
 .text_align_last_right{
-	text-align-last=right;
+	text-align-last:right;
+	border:2px dashed;
+		margin-bottom:30px;
 }
 .text_align_last_left{
-	text-align-last=left;
+	text-align-last:left;
+	border:2px dashed;
+		margin-bottom:30px;
 }
 .text_align_last_justify{
-	text-align-last=justify;
+	text-align-last:justify;
+	border:2px dashed;
+		margin-bottom:30px;
+}
+.vertical_alignment{
+	border:2px dashed green;
+}
+ .vertical_alignment .baseline  {
+	vertical-align:baseline;
+}
+.vertical_alignment .text_top {
+	vertical-align: text-top;
+} 
+.vertical_alignment .text_bottom {
+	vertical-align: text-bottom;	
+} 
+
+.vertical_alignment .super {
+	vertical-align: super;
+}  
+.vertical_alignment h3 .middle{
+	vertical-align:middle;
+}
+
+.text_decoration .line{
+	border:2px dashed blue;
+}
+.text_decoration .overline{
+	text-decoration:overline;
+}
+.text_decoration .line_throught{
+	text-decoration:line-through;
+}
+.text_decoration .underline{
+	text-decoration:underline;
+}
+.text_decoration .overline_underline{
+	text-decoration:overline underline;
+}
+.line_color{
+	border:2px solid purple;
+margin-top:20px;	
+}
+.text_decoration .overline_color{
+	text-decoration:overline;
+	text-decoration-color:red;
+}
+.text_decoration .line_throught_color{
+	text-decoration:line-through;
+	text-decoration-color:blue;
+}
+.text_decoration .underline_color{
+	text-decoration:underline;
+	text-decoration-color:red;
+}
+.text_decoration .overline_underline_color{
+	text-decoration:overline underline;
+	text-decoration-color:blue;
+}
+.line_style{
+	border:2px double yellow;
+	margin-top:20px;
+}
+
+.text_decoration .solid_style{
+	text-decoration:overline;
+	text-decoration-color:red;
+	text-decoration-style:solid;
+	
+	
+	
+}
+.text_decoration .overline_style{
+	text-decoration:overline;
+	text-decoration-color:red;
+	text-decoration-style:double;
+}
+.text_decoration .line_throught_style{
+	text-decoration:line-through;
+	text-decoration-color:blue;
+	text-decoration-style:dotted;
+}
+.text_decoration .underline_style{
+	text-decoration:underline;
+	text-decoration-color:red;
+	text-decoration-style:dashed;
+}
+.text_decoration .overline_underline_style{
+	text-decoration:overline underline;
+	text-decoration-color:blue;
+	text-decoration-style:wavy;
+}
+.text_transformation{
+	border: 2px solid red;
+	margin-top:20px;
+}
+.text_transformation .uppercase{
+	text-transform: uppercase;
+}
+.text_transformation .lowercase{
+	text-transform: lowercase;
+}
+.text_transformation .capitalize{
+	text-transform: capitalize;
+}
+.text_spacing{
+	border:2px dashed green;
+	margin-top:20px;
+}
+.text_spacing .text_indent{
+	
+	text-indent:150px;
+}
+.text_spacing .letter_spacing{
+	
+	letter-spacing:7px;
+}
+.text_spacing .line_height{
+	
+	line-height:47px;
+}
+.text_spacing .word_spacing{
+	
+	word-spacing:28px;
+}
+.text_spacing .white_space{
+	
+	white-space:nowrap;
+}
+
+.text_shadow h1{
+	text-shadow:2px 8px;
+}
+.text_shadow h3{
+	text-shadow:2px 15px 2px yellow;
 }
