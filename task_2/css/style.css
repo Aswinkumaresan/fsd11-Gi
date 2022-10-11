@@ -1,0 +1,40 @@
+.color h3{
+	color:red;
+	border:2px dashed;
+			margin-bottom:30px;
+}
+.Background_color{
+	background-color:blue;
+	border:2px solid;
+			margin-bottom:30px;
+}
+.text_align_right{
+	text-align:right;
+		border:2px dashed;
+		margin-bottom:30px;
+}
+.text_align_left{
+	text-align:left;
+		border:2px dashed;
+		margin-bottom:30px;
+}
+.text_align_center{
+	text-align:center;
+		border:2px dashed;
+				margin-bottom:30px;
+}
+.text_align_justify{
+	text-align:justify;
+		border:2px dashed;
+		margin-bottom:30px;
+}
+
+.text_align_last_right{
+	text-align-last=right;
+}
+.text_align_last_left{
+	text-align-last=left;
+}
+.text_align_last_justify{
+	text-align-last=justify;
+}
