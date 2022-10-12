@@ -1,0 +1,11 @@
+aside{
+	background-color:yellow;
+	width:45%;
+	font-style:italic;
+}
+.bi_dir bdi{
+	color:green;
+}
+.cite_tag cite{
+	color:blue;
+}
