@@ -1,0 +1,37 @@
+/* calling by tag*/
+ 
+p{
+	color:yellow;
+}
+
+
+/* calling by class*/
+
+ .call{
+	color:red;
+}
+
+/* calling by id*/
+#call_byid{
+	color:blue;
+}
+  
+
+/* calling by tag and class*/
+ .call_first p {
+	color: purple;
+}
+
+/* calling by tag and ID*/
+#call_id p{
+	color: grey;
+}
+/* calling by tag , class and ID*/
+
+
+.call_both p{
+	color:orange;
+}
+#call_ids p{
+	color:brown;
+}

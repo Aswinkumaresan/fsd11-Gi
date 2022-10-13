@@ -1,0 +1,51 @@
+<!DOCTYPE Html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<title>CSS SPECIFICITY</title>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div>
+				<h2>Tag</h2>	
+				<p>CSS specificity of the tag hold the value of 1</p>
+			</div>
+			
+			<div>
+				<h2>CSS with class</h2>
+				<p class="call">CSS specificity of the tag hold the value of 10</p>
+			</div>
+			
+			<div>
+				<h2>CSS with ID</h2>
+				<p id="call_byid">CSS specificity of the tag hold the value of 100</p>
+			</div>
+			
+			<div class="call_first">
+				<h2>CSS with tag and class</h2>
+				<p >CSS specificity of the tag hold the value of 11</p>
+			</div>
+			
+			<div id="call_id">
+				<h2>CSS with tag and ID</h2>
+				<p>CSS specificity of the tag hold the value of 101</p>
+			</div>
+			
+			<div class="call_both" id="call_ids">
+				<h2>CSS with tag, class and ID</h2>
+				<p>CSS specificity of the tag hold the value of 111</p> 
+			</div>
+
+			
+			
+			
+			
+		
+		</div>
+	
+	
+	</body>
+</html>
