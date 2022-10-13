@@ -6,12 +6,16 @@
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 		<title>CSS SPECIFICITY</title>
 	</head>
+	<style>
+		
+	
+	</style>
 	
 	<body>
 		<div class="container">
-			<div>
+			<div >
 				<h2>Tag</h2>	
-				<p>CSS specificity of the tag hold the value of 1</p>
+				<p >CSS specificity of the tag hold the value of 1</p>
 			</div>
 			
 			<div>
@@ -22,6 +26,11 @@
 			<div>
 				<h2>CSS with ID</h2>
 				<p id="call_byid">CSS specificity of the tag hold the value of 100</p>
+			</div>
+			
+			<div>
+				<h2>CSS with Inline Styles</h2>
+				<p style="color:green">CSS specificity of the tag hold the value of 1000</p> 
 			</div>
 			
 			<div class="call_first">
@@ -38,10 +47,11 @@
 				<h2>CSS with tag, class and ID</h2>
 				<p>CSS specificity of the tag hold the value of 111</p> 
 			</div>
-
 			
-			
-			
+			<div class="call_both" id="call_ids" >
+				<h2>CSS with tag, class and ID</h2>
+				<p style="color:#00ff43">CSS specificity of the tag hold the value of 1111</p> 
+			</div>
 			
 		
 		</div>
