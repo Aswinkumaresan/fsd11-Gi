@@ -1,0 +1,58 @@
+
+
+.navigation{
+	background-color:#282A35;
+	text-align:center;
+}
+
+.navigation ul li{
+	display:inline;
+	
+}
+.navigation ul li a{
+	display: inline-block;
+	/* background-color:orange; */
+	padding: 20px 108px 21px 15px;
+    text-decoration: none;
+    /* border: 1px dashed lightgoldenrodyellow; */
+	color:#fff;
+	cursor:pointer;
+	
+}
+a:link{
+
+ 	background-color:#282A35 ;
+}
+a:visited:{
+		background-color:green;
+}
+a:hover{
+		background-color:blue;
+}
+a:active{
+		background-color:green;
+}
+.navigation button{
+	padding:20px 40px;
+	background-color:#cdfdae;
+	border-radius:50px;
+}
+.li_style  {
+	/* list-style-type:square;
+	list-style-image= url('download.png'); */
+	list-style: inside url("../image/git.jpg");
+	/* height:20px; */
+}
+
+.li_style2 ul li{
+	border:1px dashed red;
+}
+.li_style2 ul{
+	list-style-type:disclosure-closed;
+	list-style-position:outside;
+}
+
+ 
+
+
+

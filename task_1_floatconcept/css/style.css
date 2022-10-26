@@ -9,7 +9,8 @@
 .prof_name
 {
 	
-}.navigation{
+}
+.navigation{
 	    padding: 50px 1px;
     border-top: 1px dashed gray;
 }
@@ -119,12 +120,12 @@ padding:50px 50px;
 padding-bottom:50px;
 }
 .project_left{
-	width:10%;
-	float:left;
+	
+	
 }
 .project_right{
-	width:90%;
-	float:right;
+	
+	
 }
 .project_sub{
 	
